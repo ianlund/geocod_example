@@ -1,0 +1,13 @@
+{
+	"geocod": {
+		"apikey": "[[APIKEY]]",
+		"url": {
+			"api": "https://api.geocod.io/v1.3",
+			"geocode": "/geocode"
+		},
+		"daily_request_limit": 2500
+	},
+	"pgsql": {
+		"connect": "host=localhost dbname=test_geocod user=postgres"
+	}
+}
